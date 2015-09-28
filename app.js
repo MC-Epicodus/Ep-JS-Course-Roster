@@ -1,6 +1,6 @@
 var courseRoster = angular.module('courseRoster', ['ui.router']);
 
-courseRoster.config(function($stateProvider) {
+courseRoster.config(function($stateProvider ) {
   $stateProvider.state('home', {
     url: "",
     views: {
