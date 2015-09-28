@@ -1,8 +1,8 @@
 # _Course Roster_
 
-##### Epicodus exercise 9/23/2015_
+##### Epicodus exercise 9/28/2015_
 
-#### By Nathan Young and Annie Hoogendoorn
+#### By Nathan Young and Mike Chastain
 
 ## Description
 
@@ -20,7 +20,7 @@ Angular, Javascript, HTML, CSS and Bootstrap._
 
 ### Legal
 
-Copyright (c) 2015 Nathan Young & Annie Hoogendoorn
+Copyright (c) 2015 Nathan Young & MIke Chastain
 
 This software is licensed under the MIT license.
 
