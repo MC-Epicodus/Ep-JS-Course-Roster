@@ -11,3 +11,13 @@ courseRoster.directive("changeClass",function(){
     });
   }
 });
+
+courseRoster.directive("sampleCourse", function() {
+
+  return{
+    template: '<div>{{courseName}}</div>',
+    link: function (scope) {
+      scope.courseName = "SCIENCE";
+    }
+  }
+});
