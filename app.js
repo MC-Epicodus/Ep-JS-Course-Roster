@@ -1,5 +1,5 @@
 var courseRoster = angular.module('courseRoster', ['ui.router']);
-debugger;
+//debugger;
 courseRoster.config(function($stateProvider, $urlRouterProvider ) {
   $stateProvider.state('home', {
     url: "",
