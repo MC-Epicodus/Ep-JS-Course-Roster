@@ -1,6 +1,6 @@
 <div ng-show="course.students.length">
   <h2>Student List for {{ course.name }}</h2>
-  <ul>
+  <ul debug>
     <li ng-repeat="item in course.students">
       {{ item.name }}
     </li>
@@ -15,4 +15,11 @@
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
   </form>
+</div>
+
+<div ng-controller = "CoursesCtrl" >
+
+  <div sample-course course-name="{{courseName}}" >
+  </div>
+  <div alert-user yell="courseAlert(message)"></div>
 </div>

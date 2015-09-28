@@ -42,4 +42,18 @@ courseRoster.config(function($stateProvider, $urlRouterProvider ) {
     }
   });
 
+  // $stateProvider.state('courses.detail', {
+  //   url: "/:courseId",
+  //   views: {
+  //     'header': {
+  //       templateUrl: "partials/header.html",
+  //       controller: 'HeadersCtrl'
+  //     },
+  //     'body': {
+  //       templateUrl: "partials/courses.details.html",
+  //       controller: ''
+  //     },
+  //   }
+  // });
+
 });
